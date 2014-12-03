@@ -16,7 +16,7 @@ Before running the docker container you must prepare with the following steps
 
 Once you have setup the directory you should be able to run the container, like so:
 
-    docker run -d --name=vps-nginx -p 80:80 -p 443:443 -v `pwd`/sites:/sites -v `pwd`/certs:/etc/nginx/certs -v `pwd`/sites-enabled:/etc/nginx/sites-enabled -v `pwd`/logs:/var/log/nginx dockerfile/nginx
+    docker run -d --name=vps-nginx -p 80:80 -p 443:443 -v `pwd`/sites:/sites -v `pwd`/certs:/etc/nginx/certs -v `pwd`/sites-enabled:/etc/nginx/sites-enabled -v `pwd`/logs:/var/log/nginx bugthing/docker-nginx
 
 ## Directories
 
