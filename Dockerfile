@@ -1,4 +1,4 @@
-FROM base/archlinux
+FROM bugthing/docker-archlinux
 RUN pacman --noconfirm -Sy archlinux-keyring \
     && pacman-key --populate \
     && pacman-key --refresh-keys \
